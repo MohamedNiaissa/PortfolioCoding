@@ -2,12 +2,14 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import Battle from "../../Assets/Projects/Battle.png";
+import CDL from "../../Assets/Projects/CDL.png";
+import pokemon from "../../Assets/Projects/pokemon.png";
+import JavaFx from "../../Assets/Projects/JavaFx.png";
+import Portfolio from "../../Assets/Projects/Portfolio.png";
+import SpaceInvaders from "../../Assets/Projects/SpaceInvaders.png";
+import theatromatic from "../../Assets/Projects/theatromatic.png";
+import weathr from "../../Assets/Projects/weather.png";
 
 function Projects() {
   return (
@@ -15,76 +17,89 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          Certains de mes <strong className="purple"> projets </strong>
         </h1>
-        <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
-        </p>
+      
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={pokemon}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Pokemon"
+              description="Vous êtes un chasseur de Pokémon ayant la possibilité de capturer des Pokémon à travers un quiz (incluant cris, taille, poids, type). Vous pouvez également retrouver vos Pokémon capturés dans la section Pokédex."
+              ghLink="https://github.com/MohamedNiaissa/PokeApp"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={weathr}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Weather"
+              description="Cette application vous permet de regarder la météo ainsi que les mesures astronomiques actuel provenant de plusieurs ville dans le monde. Vous avez également à votre disposition la liste des villes consultées. "
+              ghLink="https://github.com/MohamedNiaissa/weathr"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={theatromatic}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Theatromatic"
+              description="Theatromatic est une application de génération de pièce de théâtre. Votre pièce de théâtre se base sur votre scénario et les personnages que vous avez crée."
+              ghLink="https://github.com/LeoJeanjean/Theatromatic"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={SpaceInvaders}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="SpaceInvaders et Memory Cards"
+              description="Cette application regroupe les deux jeux populaires: Space Invaders et le Memory Game. Le temps pris pour chaque partie de Memory est visible et classé."
+              ghLink="https://github.com/MohamedNiaissa/ProjetJsAvancee"
+              demoLink="https://mohamedniaissa.github.io/ProjetJsAvancee/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={CDL}
+              isBlog={false}
+              title="Chiffres et des lettres"
+              description="Il s'agit du jeu classique des chiffres et des lettres. Vous pouvez jouez à deux ou contre la machine."
+              ghLink="https://github.com/MohamedNiaissa/chiffrelettres-dcedl-david-mohamed-angel-kevin"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={JavaFx}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Multi-Applications"
+              description="Plusieurs applications sont regroupé dans ce projet: gestionnaire de librairie; gestionnaire d'une armée; calculateur IMC; convertisseur de decimal vers hexadecimal, binaire, romain"
+              ghLink="https://github.com/MohamedNiaissa/ProjetJavaAv"
             />
           </Col>
-
+        </Row>
+        <Row>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={Battle}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Battle simulation"
+              description="Il s'agit d'un simulateur de combat tour par tour. PLusieurs types de combattant sont disponible tel que paysan, archer, fou, magicien..."
+              ghLink="https://github.com/MohamedNiaissa/Projet_java"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Portfolio}
+              isBlog={false}
+              title="Clone Portfolio"
+              description="C'est un clone d'un portfolio basé sur une maquette qui nous a été fournis."
+              ghLink="https://github.com/MohamedNiaissa/portfolioclone"
+              demoLink="https://mohamedniaissa.github.io/portfolioclone/"
+
             />
           </Col>
         </Row>
