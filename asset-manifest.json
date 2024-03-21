@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/PortfolioCoding/static/css/main.c1fdd222.css",
-    "main.js": "/PortfolioCoding/static/js/main.79b15c7a.js",
+    "main.js": "/PortfolioCoding/static/js/main.b59293ea.js",
     "static/js/415.4d6acbeb.chunk.js": "/PortfolioCoding/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/PortfolioCoding/static/js/787.1ed0c42c.chunk.js",
     "static/media/SpaceInvaders.png": "/PortfolioCoding/static/media/SpaceInvaders.161b4aa734c99fb74139.png",
+    "static/media/ObjectRecognition.png": "/PortfolioCoding/static/media/ObjectRecognition.9f68f06dfdba81f42d25.png",
     "static/media/weather.png": "/PortfolioCoding/static/media/weather.9ba533e31faa0bcae2cd.png",
     "static/media/theatromatic.png": "/PortfolioCoding/static/media/theatromatic.a89f70b72b8970ee179c.png",
     "static/media/pokemon.png": "/PortfolioCoding/static/media/pokemon.b24f5c2e35d48d87f4bf.png",
@@ -20,12 +21,12 @@
     "static/media/pre.svg": "/PortfolioCoding/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/PortfolioCoding/index.html",
     "main.c1fdd222.css.map": "/PortfolioCoding/static/css/main.c1fdd222.css.map",
-    "main.79b15c7a.js.map": "/PortfolioCoding/static/js/main.79b15c7a.js.map",
+    "main.b59293ea.js.map": "/PortfolioCoding/static/js/main.b59293ea.js.map",
     "415.4d6acbeb.chunk.js.map": "/PortfolioCoding/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/PortfolioCoding/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c1fdd222.css",
-    "static/js/main.79b15c7a.js"
+    "static/js/main.b59293ea.js"
   ]
 }
