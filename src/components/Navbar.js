@@ -38,7 +38,7 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
+        <Navbar.Brand href="/PortfolioCoding" className="d-flex">
           <p className="purple" style={{ fontWeight: "large" }}>Mn.</p>
         </Navbar.Brand>
         <Navbar.Toggle
