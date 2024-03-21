@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PortfolioCoding/static/css/main.c1fdd222.css",
-    "main.js": "/PortfolioCoding/static/js/main.1e5f4881.js",
+    "main.js": "/PortfolioCoding/static/js/main.79b15c7a.js",
     "static/js/415.4d6acbeb.chunk.js": "/PortfolioCoding/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/PortfolioCoding/static/js/787.1ed0c42c.chunk.js",
     "static/media/SpaceInvaders.png": "/PortfolioCoding/static/media/SpaceInvaders.161b4aa734c99fb74139.png",
@@ -12,7 +12,7 @@
     "static/media/Portfolio.png": "/PortfolioCoding/static/media/Portfolio.7fc1832fb7a72624546d.png",
     "static/media/JavaFx.png": "/PortfolioCoding/static/media/JavaFx.c765cd8b79a87578b5ce.png",
     "static/media/Battle.png": "/PortfolioCoding/static/media/Battle.adee118013427b02b008.png",
-    "static/media/CV.pdf": "/PortfolioCoding/static/media/CV.645f68ca8618248fa146.pdf",
+    "static/media/CV.pdf": "/PortfolioCoding/static/media/CV.96788d83c9580a2df570.pdf",
     "static/media/home-main.svg": "/PortfolioCoding/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
     "static/media/about.png": "/PortfolioCoding/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/desktop.png": "/PortfolioCoding/static/media/desktop.2cdeb1e4d4cc495bcda3.png",
@@ -20,12 +20,12 @@
     "static/media/pre.svg": "/PortfolioCoding/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/PortfolioCoding/index.html",
     "main.c1fdd222.css.map": "/PortfolioCoding/static/css/main.c1fdd222.css.map",
-    "main.1e5f4881.js.map": "/PortfolioCoding/static/js/main.1e5f4881.js.map",
+    "main.79b15c7a.js.map": "/PortfolioCoding/static/js/main.79b15c7a.js.map",
     "415.4d6acbeb.chunk.js.map": "/PortfolioCoding/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/PortfolioCoding/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c1fdd222.css",
-    "static/js/main.1e5f4881.js"
+    "static/js/main.79b15c7a.js"
   ]
 }
