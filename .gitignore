@@ -25,5 +25,7 @@ yarn-error.log*
 
 .eslintcache
 
+.idea
+
 Server/node_modules
 Server/config.js
